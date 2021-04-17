@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    <!-- <script src="p5.play.js"></script> -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDAf3fTPw-flNFsGfkSWNmed7aTIT2Oc8c",
+    authDomain: "fight-club-12c55.firebaseapp.com",
+    databaseURL: "https://fight-club-12c55-default-rtdb.firebaseio.com",
+    projectId: "fight-club-12c55",
+    storageBucket: "fight-club-12c55.appspot.com",
+    messagingSenderId: "215599639876",
+    appId: "1:215599639876:web:4a604f8f0a4e9df9d53b11"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <script src = "Form.js"></script>
+    <script src = "Game.js"></script>
+    <script src = "Player.js"></script>
+    </head>
+    <body>
+        <script src = "Sketch.js"></script>
+    </body>
+</html>
